@@ -4,8 +4,124 @@
   <link rel="stylesheet" href="CSS/normalize.css" />
   <link rel="stylesheet" href="CSS/style.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <title>Museu Nacional</title>
+  <title>National Museum</title>
 </head>
 <body>
-  <div id="container"></div>
+  <!--container-->
+  <div id="container">
+    <!--header-->
+    <header>
+      <div id="logo">
+        <h1><a href="">National Museum</a></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Expositions</a></li>
+          <li><a href="#">Search</a></li>
+          <li><a href="#">Collection</a></li>
+          <li><a href="#">Videos</a></li>
+          <li><a href="#">Photos</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--/header-->
+    <!--main-->
+    <div id="main">
+      <div id="content">
+        <section id="cover-page"><img src="img/museu.png" /></section>
+        <section id="posts">
+          <article id="video">
+            <h3>Video: explore the museum</h3>
+            <iframe
+              width="310"
+              height="170"
+              src="https://www.youtube.com/embed/rqG7kaPyyCc?si=uZqURB8UFchrnLce"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </article>
+          <article id="map">
+            <h3>Map: locate the museum</h3>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2234.1367051423495!2d-3.1931415228845736!3d55.94700247701621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c784d1bae421%3A0x88cc2703f2beb5c3!2sMuseu%20Nacional%20da%20Esc%C3%B3cia!5e0!3m2!1spt-PT!2spt!4v1718290889634!5m2!1spt-PT!2spt"
+              width="310"
+              height="170"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </article>
+          <article id="expositions">
+            <h3>Expositions</h3>
+            <ul>
+              <li><a href="#">Ancient Egypt</a></li>
+              <li><a href="#">Whales, dolphins, and porpoises</a></li>
+              <li><a href="#">The Romans</a></li>
+              <li><a href="#">Scent bottles</a></li>
+              <li><a href="#">Minerals</a></li>
+              <li>
+                <a href="#"><strong>See all (77)</strong></a>
+              </li>
+            </ul>
+          </article>
+          <article id="history">
+            <h3>200 years of history</h3>
+            <p>
+              The origins of the Museum's rich and varied collection lie with
+              the Society of Antiquaries of Scotland, which was founded in 1780,
+              very much in the spirit of the Enlightenment, to collect the
+              archaeology of Scotland. This collection passed into public
+              ownership in 1851, forming the original collections of the
+              National Museum of Antiquities of Scotland.
+            </p>
+            <a href="#"><strong>Leia mais</strong></a>
+          </article>
+        </section>
+      </div>
+      <!--aside-->
+      <aside>
+        <section id="depoiment"><img src="img/depoimento.png" /></section>
+        <section id="visit">
+          <h4>Take a visit</h4>
+          <form action="">
+            <fieldset>
+              <legend>Select a date</legend>
+              <label for="date">Date</label>
+              <input class="camp" type="date" id="date" />
+              <label for="visitors">How many people?</label>
+              <input class="camp" type="number" id="visitors" value="1" />
+            </fieldset>
+            <input class="button" type="submit" value="Check availability" />
+          </form>
+        </section>
+        <section id="gallery">
+          <h4>Photo gallery</h4>
+          <a href=""><img src="img/imagem1.jpg" height="93" width="93" /></a>
+          <a href=""><img src="img/imagem2.jpg" height="93" width="93" /></a>
+          <a href=""><img src="img/imagem3.jpg" height="93" width="93" /></a>
+          <a href=""><img src="img/imagem4.jpg" height="93" width="93" /></a>
+        </section>
+      </aside>
+      <!--/aside-->
+      <footer style="clear: both">
+        <p>
+          <a href="#">Home</a> <a href="#">Expositions</a>
+          <a href="#">Search</a> <a href="#">Collection</a>
+          <a href="#">Videos</a> <a href="#">Photos</a> <a href="#">Contact</a>
+        </p>
+        <p>
+          2024<a href="#">National Museum</a>- Todos os direitos reservados
+          &copy;
+        </p>
+      </footer>
+    </div>
+    <!--/main-->
+  </div>
+  <!--/container-->
 </body>
